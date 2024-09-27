@@ -26,7 +26,7 @@ const Project = (props: IProjectProps) => (
 
     <div>
       <div className="flex flex-col items-center gap-y-2 md:flex-row">
-        <a className="hover:text-cyan-400" href={props.link}>
+        <a className="hover:text-yellow-600" href={props.link}>
           <div className="text-xl font-semibold">{props.name}</div>
         </a>
 
